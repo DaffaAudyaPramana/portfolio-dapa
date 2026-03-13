@@ -8,7 +8,7 @@ export default function Publications() {
           Publikasi
         </p>
 
-        <h2 className="text-4xl font-bold text-center mb-4">
+        <h2 className="text-4xl font-bold text-center mb-4 text-black">
           Publikasi
         </h2>
 
@@ -30,7 +30,7 @@ export default function Publications() {
 
             <div className="p-6">
 
-              <h3 className="text-xl font-semibold mb-4">
+              <h3 className="text-xl font-semibold mb-4 text-black">
                 Implementasi Framework Laravel Pada Perancangan Aplikasi Sistem
                 Pendaftaran Programming Course Roblox
               </h3>
@@ -67,7 +67,7 @@ export default function Publications() {
 
             <div className="p-6">
 
-              <h3 className="text-xl font-semibold mb-4">
+              <h3 className="text-xl font-semibold mb-4 text-black">
                 Tutorial Membuat Game Puzzle Roblox
               </h3>
 

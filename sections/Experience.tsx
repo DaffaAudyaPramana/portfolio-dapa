@@ -9,7 +9,7 @@ export default function Experience() {
           Pengalaman
         </p>
 
-        <h2 className="text-4xl font-bold mb-4">
+        <h2 className="text-4xl font-bold mb-4 text-black">
           Pengalaman Kerja, Freelance, & Magang
         </h2>
 

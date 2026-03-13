@@ -15,7 +15,7 @@ export default function Projects() {
         </h2>
 
         <p className="text-gray-600 text-center mb-12">
-          Berikut beberapa project yang pernah dikembangkan
+          Berikut beberapa project yang pernah saya kerjakan
         </p>
 
         <div className="grid md:grid-cols-2 gap-12">

@@ -1,30 +1,26 @@
 export const education = [
   {
-    name: "Universitas Logistik & Bisnis Internasional",
-    role: "D4 Teknik Informatika",
-    year: "2021 - 2025",
     logo: "/education/ulbi.png",
-    link: "#",
+    link: "https://ulbi.ac.id"
   },
   {
-    name: "Google Developer Student Club",
-    role: "Member",
-    year: "2023 - 2024",
-    logo: "/education/gdsc.png",
-    link: "#",
+    logo: "/education/golang-luster.png",
+    link: "https://www.mindluster.com/student/certificate/1363332232"
+  },
+      {
+    logo: "/education/codeacademygo.png",
+    link: "https://www.linkedin.com/in/daffaaudyapramana/details/certifications/1723474426826/single-media-viewer/?profileId=ACoAADhcYOYBjOaEjN9UaomO6crwvHw544WMzYc"
   },
   {
-    name: "Bangkit Academy",
-    role: "Cloud Computing Path",
-    year: "2024",
-    logo: "/education/bangkit.png",
-    link: "#",
+    logo: "/education/oracle-db-design.png",
+    link: "https://www.linkedin.com/in/daffaaudyapramana/details/certifications/1723474297191/single-media-viewer/?profileId=ACoAADhcYOYBjOaEjN9UaomO6crwvHw544WMzYc"
   },
   {
-    name: "Google I/O Extended",
-    role: "Participant",
-    year: "2023",
-    logo: "/education/googleio.png",
-    link: "#",
+    logo: "/education/javascript.png",
+    link: "https://www.linkedin.com/in/daffaaudyapramana/details/certifications/1723474534966/single-media-viewer/?profileId=ACoAADhcYOYBjOaEjN9UaomO6crwvHw544WMzYc"
   },
-];
+    {
+    logo: "/education/greatlearninggo.png",
+    link: "https://www.linkedin.com/in/daffaaudyapramana/details/certifications/1723474759605/single-media-viewer/?profileId=ACoAADhcYOYBjOaEjN9UaomO6crwvHw544WMzYc"
+  },
+]

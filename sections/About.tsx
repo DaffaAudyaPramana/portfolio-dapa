@@ -67,7 +67,7 @@ export default function About() {
 
   <ul className="space-y-4 text-gray-700">
     <li>
-      <strong>Frontend:</strong> HTML, CSS, JavaScript (ES6), Vue.js
+      <strong>Frontend:</strong> HTML, CSS, JavaScript (ES6), Vue.js, Laravel
     </li>
     <li>
       <strong>Backend:</strong> Golang, Laravel, RESTful API Development
@@ -79,10 +79,10 @@ export default function About() {
       <strong>DevOps & Deployment:</strong> Docker, Docker Compose, 
       Reverse Proxy (Traefik), Server Troubleshooting
     </li>
-    <li>
+    {/* <li>
       <strong>Architecture & Workflow:</strong> Microservices-based systems, 
       SDLC, Clean Code Principles
-    </li>
+    </li> */}
   </ul>
 
           {/* CONNECT */}

@@ -17,7 +17,7 @@ export default function Contact() {
           Kontak
         </p>
 
-        <h2 className="text-4xl font-bold mb-6">
+        <h2 className="text-4xl font-bold mb-6 text-black">
           Hubungi Saya
         </h2>
 
@@ -25,14 +25,14 @@ export default function Contact() {
 
           <a
             href="tel:082117252716"
-            className="w-12 h-12 flex items-center justify-center rounded-full border hover:bg-purple-600 hover:text-white transition"
+            className="w-12 h-12 flex items-center justify-center rounded-full border border-purple-200 text-purple-600 hover:bg-purple-600 hover:text-white hover:scale-110 transition duration-300"
           >
             <Phone size={20} />
           </a>
 
           <a
             href="mailto:Daffaaudyapramana03@gmail.com"
-            className="w-12 h-12 flex items-center justify-center rounded-full border hover:bg-purple-600 hover:text-white transition"
+            className="w-12 h-12 flex items-center justify-center rounded-full border border-purple-200 text-purple-600 hover:bg-purple-600 hover:text-white hover:scale-110 transition duration-300"
           >
             <Mail size={20} />
           </a>
@@ -40,7 +40,7 @@ export default function Contact() {
           <a
             href="https://linkedin.com"
             target="_blank"
-            className="w-12 h-12 flex items-center justify-center rounded-full border hover:bg-purple-600 hover:text-white transition"
+            className="w-12 h-12 flex items-center justify-center rounded-full border border-purple-200 text-purple-600 hover:bg-purple-600 hover:text-white hover:scale-110 transition duration-300"
           >
             <Linkedin size={20} />
           </a>
@@ -48,7 +48,7 @@ export default function Contact() {
           <a
             href="https://github.com"
             target="_blank"
-            className="w-12 h-12 flex items-center justify-center rounded-full border hover:bg-purple-600 hover:text-white transition"
+            className="w-12 h-12 flex items-center justify-center rounded-full border border-purple-200 text-purple-600 hover:bg-purple-600 hover:text-white hover:scale-110 transition duration-300"
           >
             <Github size={20} />
           </a>
@@ -56,7 +56,7 @@ export default function Contact() {
           <a
             href="https://instagram.com"
             target="_blank"
-            className="w-12 h-12 flex items-center justify-center rounded-full border hover:bg-purple-600 hover:text-white transition"
+            className="w-12 h-12 flex items-center justify-center rounded-full border border-purple-200 text-purple-600 hover:bg-purple-600 hover:text-white hover:scale-110 transition duration-300"
           >
             <Instagram size={20} />
           </a>
@@ -64,7 +64,7 @@ export default function Contact() {
           <a
             href="https://youtube.com"
             target="_blank"
-            className="w-12 h-12 flex items-center justify-center rounded-full border hover:bg-purple-600 hover:text-white transition"
+            className="w-12 h-12 flex items-center justify-center rounded-full border border-purple-200 text-purple-600 hover:bg-purple-600 hover:text-white hover:scale-110 transition duration-300"
           >
             <Youtube size={20} />
           </a>
@@ -72,7 +72,7 @@ export default function Contact() {
           <a
             href="https://twitter.com"
             target="_blank"
-            className="w-12 h-12 flex items-center justify-center rounded-full border hover:bg-purple-600 hover:text-white transition"
+            className="w-12 h-12 flex items-center justify-center rounded-full border border-purple-200 text-purple-600 hover:bg-purple-600 hover:text-white hover:scale-110 transition duration-300"
           >
             <Twitter size={20} />
           </a>

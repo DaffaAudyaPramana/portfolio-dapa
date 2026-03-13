@@ -9,7 +9,7 @@ export default function Hero() {
         <Reveal>
         <div>
           <p className="animate-FadeInUp">
-            Halo Semua 👋, Saya
+            Halo, Nama saya
           </p>
 
           <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
@@ -17,8 +17,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-gray-600 mb-6">
-            IT Programmer yang berfokus pada pengembangan aplikasi web modern
-            menggunakan React & Next.js.
+            IT Programmer yang berfokus pada Fullstack Developer dan saat ini saya sedang belajar mengenai DevOps
           </p>
 
           <a
