@@ -107,20 +107,20 @@ export default function About() {
     },
     {
       icon: <Github size={18} />,
-      link: "https://github.com/username",
+      link: "https://github.com/DaffaAudyaPramana",
     },
     {
       icon: <Instagram size={18} />,
-      link: "https://instagram.com/username",
+      link: "https://instagram.com/audydaffpramn",
     },
-    {
-      icon: <Youtube size={18} />,
-      link: "https://youtube.com/@username",
-    },
-    {
-      icon: <Twitter size={18} />,
-      link: "https://twitter.com/username",
-    },
+    // {
+    //   icon: <Youtube size={18} />,
+    //   link: "https://youtube.com/@username",
+    // },
+    // {
+    //   icon: <Twitter size={18} />,
+    //   link: "https://twitter.com/username",
+    // },
   ].map((item, index) => (
     <a
       key={index}
