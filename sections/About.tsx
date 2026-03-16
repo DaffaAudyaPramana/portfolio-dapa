@@ -23,7 +23,7 @@ export default function About() {
           </h2>
 
 <p className="text-gray-700 leading-relaxed mb-6">
-  Saya adalah lulusan <strong>Bachelor of Applied Computer Science</strong> 
+  Saya adalah lulusan Teknik Informatika 
   dengan pengalaman sebagai <strong>Fullstack Developer</strong> dan 
   <strong> Junior DevOps Engineer</strong>. Saya terbiasa mengembangkan 
   dan mengelola aplikasi web end-to-end, mulai dari perancangan antarmuka 
