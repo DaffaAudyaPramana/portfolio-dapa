@@ -76,7 +76,7 @@ export default function About() {
       <strong>Database:</strong> MySQL, PostgreSQL, MongoDB
     </li>
     <li>
-      <strong>DevOps & Deployment:</strong> Docker, Docker Compose, 
+      <strong>DevOps & Cloud Deployment:</strong> Docker Compose, 
       Reverse Proxy (Traefik), Server Troubleshooting
     </li>
     {/* <li>

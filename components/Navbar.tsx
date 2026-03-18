@@ -17,14 +17,23 @@ export default function Navbar() {
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex space-x-8 text-sm font-medium text-black">
-          <a href="#about" className="hover:text-purple-600 transition">
-            Tentang
+          <a href="#home" className="hover:text-purple-600 transition">
+            Beranda
           </a>
-          <a href="#skills" className="hover:text-purple-600 transition">
-            Skills
+          <a href="#about" className="hover:text-purple-600 transition">
+            About Me
           </a>
           <a href="#projects" className="hover:text-purple-600 transition">
             Portfolio
+          </a>
+          <a href="#education" className="hover:text-purple-600 transition">
+            Pendidikan
+          </a>
+          <a href="#experience" className="hover:text-purple-600 transition">
+            Pengalaman
+          </a>
+          <a href="#publications" className="hover:text-purple-600 transition">
+            Publikasi
           </a>
           <a href="#contact" className="hover:text-purple-600 transition">
             Kontak

@@ -1,34 +1,34 @@
 export const projects = [
   {
-    title: "Sistem Point of Sales Kasir",
-    company: "d'Cartail",
+    title: "Wegotour",
+    company: "ULBI",
     image: "/projects/Wegotour.png",
     link: "#",
     description:
-      "Sistem manajemen penjualan yang mengintegrasikan proses transaksi dari Sales Order, Delivery Order hingga Invoice dengan sinkronisasi data akuntansi.",
+      "Wegotour adalah platform web informasi pariwisata yang dikembangkan untuk menyediakan berbagai informasi destinasi wisata secara digital. Pada proyek ini, saya mengembangkan halaman web menggunakan HTML5 dan JavaScript (ES6) untuk menghadirkan antarmuka yang interaktif dan responsif. Di sisi backend, saya membangun layanan server menggunakan Golang yang terintegrasi dengan MongoDB sebagai sistem basis data untuk pengelolaan informasi wisata. Selain itu, saya juga mengimplementasikan serverless API menggunakan Google Cloud Function guna mendukung pemrosesan data secara efisien dan scalable..",
   },
   {
-    title: "Sistem Monitoring Bahan Detailing",
-    company: "Sonax & d'Cartail",
+    title: "Berkemah",
+    company: "Startup",
     image: "/projects/Berkemah.png",
     link: "#",
     description:
-      "Aplikasi monitoring penggunaan bahan detailing yang mencatat konsumsi secara real-time dan membantu kontrol stok serta analisis biaya operasional.",
+      "Selama proyek Berkemah, saya berperan sebagai Front-end Developer dalam pengembangan sistem kursus dan assessment test berbasis web menggunakan Laravel 12. Saya bertanggung jawab dalam mengimplementasikan berbagai komponen antarmuka pengguna yang terintegrasi dengan backend API, sehingga memastikan alur data antara frontend dan backend berjalan dengan baik. Selain itu, saya juga melakukan proses pengujian fitur serta evaluasi bersama mentor untuk memastikan setiap fungsi sistem berjalan sesuai kebutuhan dan standar kualitas yang ditetapkan.",
   },
   {
-    title: "Learning Management System",
-    company: "Internal Platform",
+    title: "DoMyIkaDo",
+    company: "ULBI",
     image: "/projects/do.my.id.png",
     link: "#",
     description:
-      "Platform pembelajaran online yang mendukung manajemen kelas, materi, assessment, dan monitoring progres peserta secara terintegrasi.",
+      "Selama bekerja di PT. Penerbit Buku Pedia, Bandung sebagai Fullstack Developer, saya terlibat dalam pengembangan platform tes IQ berbasis web yang dirancang untuk mendukung proses assessment secara digital. Saya merancang dan mengembangkan antarmuka pengguna menggunakan HTML5 dan JavaScript (ES6), serta membangun layanan backend menggunakan Golang yang terintegrasi dengan MongoDB sebagai sistem basis data. Selain itu, saya mengintegrasikan backend dengan Google Cloud Function untuk mendukung pemrosesan data yang lebih scalable. Dalam pengembangannya, saya juga mengimplementasikan microservice berbasis Golang yang terhubung dengan WhatsApp API, sehingga sistem dapat secara otomatis mengirimkan informasi serta hasil tes IQ kepada pengguna.",
   },
   {
-    title: "Inventory Management System",
-    company: "Warehouse",
+    title: "Jatidiri App",
+    company: "PT Hexagon Karyatama Indonesia",
     image: "/projects/Jatidiri.png",
     link: "#",
     description:
-      "Sistem pengelolaan inventori yang membantu tracking stok barang, transaksi keluar masuk, serta laporan ketersediaan secara real-time.",
+      "Selama menjalani magang sebagai Front-end Developer di PT. Hexagon Karyatama Indonesia, Cimahi, saya terlibat dalam pengembangan antarmuka pengguna untuk sistem RMIB test menggunakan Vue.js. Dalam proyek ini, saya mengimplementasikan logika assessment untuk memastikan proses penilaian dan fungsi tes berjalan dengan akurat. Selain itu, saya juga membangun serta mengimplementasikan antarmuka CMS untuk mendukung pengelolaan konten sistem. Dalam proses pengembangannya, saya bekerja sama dengan tim backend Laravel untuk memastikan integrasi fitur berjalan dengan baik dan menghasilkan aplikasi yang responsif serta mudah digunakan.",
   },
 ];
