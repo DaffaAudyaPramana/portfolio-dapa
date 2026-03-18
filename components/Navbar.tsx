@@ -12,7 +12,7 @@ export default function Navbar() {
         
         {/* Logo */}
         <Link href="/" className="text-xl font-bold text-purple-600">
-          daffaaudya
+          Daffa Audya Pramana
         </Link>
 
         {/* Desktop Menu */}
