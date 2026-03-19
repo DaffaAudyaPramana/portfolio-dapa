@@ -1,49 +1,59 @@
+"use client";
+
 import Reveal from "@/components/Reveal";
 
 export default function Hero() {
   return (
-    <section
-      id="home"
-      className="min-h-screen flex items-center bg-black text-white pt-24"
-    >
-      <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+    <section 
+    id="home"
+    className="min-h-screen flex items-center pt-32 relative overflow-hidden">
+      
+      {/* subtle background gradient */}
+      <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-black to-black" />
 
-        {/* Left Content */}
+      <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center relative z-10">
+        
+        {/* LEFT */}
         <Reveal>
-          <div>
-            <p className="text-gray-400 mb-3">
+          <div className="space-y-6">
+            
+            <p className="text-sm text-gray-400 tracking-wide">
               Halo, nama saya
             </p>
 
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-              Daffa Audya Pramana
+            <h1 className="text-4xl md:text-6xl font-bold leading-tight">
+              <span className="text-white">Daffa Audya</span>{" "}
+              <span className="text-purple-500">Pramana</span>
             </h1>
 
-            <p className="text-gray-400 max-w-lg mb-8 leading-relaxed">
-              Lulusan Teknik Informatika yang berfokus pada pengembangan aplikasi web sebagai
-              <span className="text-white font-medium"> Fullstack Developer</span>.
-              Saat ini saya juga sedang memperdalam pengetahuan di bidang
-              <span className="text-white font-medium"> DevOps</span> untuk memahami
-              proses deployment dan pengelolaan sistem secara end-to-end.
+            <p className="text-gray-400 max-w-md leading-relaxed">
+              Fullstack Developer dengan fokus pada pengembangan web scalable 
+              dan saat ini memperdalam DevOps untuk memahami deployment end-to-end.
             </p>
 
-            <a
-              href="#contact"
-              className="inline-block bg-purple-600 text-white px-7 py-3 rounded-full font-medium hover:bg-purple-700 transition duration-300"
-            >
-              Hubungi Saya
-            </a>
+            <div className="flex gap-4">
+              <a
+                href="#contact"
+                className="px-6 py-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-300 shadow-lg hover:shadow-purple-500/30"
+              >
+                Hubungi Saya
+              </a>
+            </div>
           </div>
         </Reveal>
 
-        {/* Right Content */}
+        {/* RIGHT */}
         <Reveal>
           <div className="flex justify-center">
-            <div className="w-72 h-72 md:w-80 md:h-80 rounded-full bg-purple-600 p-1">
-              <div className="w-full h-full rounded-full overflow-hidden bg-white">
+            <div className="relative group">
+              
+              {/* glow effect */}
+              <div className="absolute inset-0 rounded-full bg-purple-600 blur-3xl opacity-20 group-hover:opacity-40 transition duration-500" />
+
+              <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-purple-600 relative z-10 transform group-hover:scale-105 transition duration-500">
                 <img
                   src="/profile.png"
-                  alt="Daffa Audya Pramana"
+                  alt="Daffa"
                   className="w-full h-full object-cover"
                 />
               </div>

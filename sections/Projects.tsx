@@ -18,7 +18,7 @@ export default function Projects() {
           Berikut beberapa project yang pernah saya kerjakan
         </p>
 
-        <div className="grid md:grid-cols-2 gap-12">
+        <div className="group bg-white/5 backdrop-blur rounded-xl p-6 border border-white/10 hover:border-purple-500 transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-purple-500/10">
           {projects.map((project, index) => (
             <ProjectCard key={index} {...project} />
           ))}

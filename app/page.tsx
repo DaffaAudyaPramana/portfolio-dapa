@@ -3,7 +3,7 @@ import About from "@/sections/About";
 import Projects from "@/sections/Projects";
 import Education from "@/sections/Education";
 import Experience from "@/sections/Experience";
-import Publications from "@/sections/Publication";
+import Publications from "@/sections/Publications";
 import Contact from "@/sections/Contact";
 
 export default function Home() {

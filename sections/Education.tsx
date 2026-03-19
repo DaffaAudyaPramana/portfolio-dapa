@@ -31,12 +31,9 @@ export default function Education() {
                 src={item.logo}
                 alt="education"
                 className="
-                  w-34 h-34 object-contain
-                  grayscale opacity-60
-                  transition-all duration-300
-                  group-hover:grayscale-0
-                  group-hover:opacity-100
-                  group-hover:scale-110
+                  w-24 md:w-32
+                  grayscale hover:
+                  grayscale-0 transition duration-300
                 "
               />
             </a>

@@ -7,7 +7,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-white shadow-sm z-50">
+    <header className="fixed top-0 w-full z-50 bg-black/60 backdrop-blur border-b border-white/10 text-gray-300">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         
         {/* Logo */}
@@ -16,12 +16,12 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Menu */}
-        <nav className="hidden md:flex space-x-8 text-sm font-medium text-black">
+        <nav className="hidden md:flex space-x-8 text-sm font-medium text-gray-300">
           <a href="#home" className="hover:text-purple-600 transition">
             Beranda
           </a>
           <a href="#about" className="hover:text-purple-600 transition">
-            About Me
+            Tentang Saya
           </a>
           <a href="#projects" className="hover:text-purple-600 transition">
             Portfolio
@@ -70,14 +70,23 @@ export default function Navbar() {
         } bg-white`}
       >
         <nav className="flex flex-col px-6 pb-4 space-y-4 text-sm font-medium text-black">
-          <a href="#about" onClick={() => setIsOpen(false)}>
-            Tentang
+          <a href="#home" onClick={() => setIsOpen(false)}>
+            Home
           </a>
-          <a href="#skills" onClick={() => setIsOpen(false)}>
-            Skills
+          <a href="#about" onClick={() => setIsOpen(false)}>
+            Tentang Saya
           </a>
           <a href="#projects" onClick={() => setIsOpen(false)}>
             Portfolio
+          </a>
+          <a href="#education" onClick={() => setIsOpen(false)}>
+            Pendidikan
+          </a>
+          <a href="#experience" onClick={() => setIsOpen(false)}>
+            Pengalaman
+          </a>
+          <a href="#publications" onClick={() => setIsOpen(false)}>
+            Publikasi
           </a>
           <a href="#contact" onClick={() => setIsOpen(false)}>
             Kontak
