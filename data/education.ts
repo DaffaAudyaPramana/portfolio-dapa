@@ -16,7 +16,7 @@ export const education = [
     link: "https://www.linkedin.com/in/daffaaudyapramana/details/certifications/1723474297191/single-media-viewer/?profileId=ACoAADhcYOYBjOaEjN9UaomO6crwvHw544WMzYc"
   },
   {
-    logo: "/education/javascript.png",
+    logo: "/education/JavaScript.png",
     link: "https://www.linkedin.com/in/daffaaudyapramana/details/certifications/1723474534966/single-media-viewer/?profileId=ACoAADhcYOYBjOaEjN9UaomO6crwvHw544WMzYc"
   },
     {
