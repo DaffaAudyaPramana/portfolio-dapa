@@ -14,7 +14,7 @@ export default function Experience() {
         </h2>
 
         <p className="text-gray-600 mb-16">
-          Pernah dan sedang bekerja pada perusahaan berikut
+          Pernah bekerja dan magang pada perusahaan berikut
         </p>
 
         <div className="flex justify-center gap-12 flex-wrap">
