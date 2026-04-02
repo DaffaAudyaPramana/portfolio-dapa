@@ -24,7 +24,7 @@ export default function About() {
 
 <p className="text-gray-700 leading-relaxed mb-6">
   Saya adalah lulusan Teknik Informatika 
-  dengan pengalaman sebagai <strong>Fullstack Developer</strong> dan 
+  dengan pengalaman <strong>Fullstack Developer</strong> dan 
   <strong> Junior DevOps Engineer</strong>. Saya terbiasa mengembangkan 
   dan mengelola aplikasi web end-to-end, mulai dari perancangan antarmuka 
   hingga pengelolaan sistem di sisi server.
@@ -58,10 +58,10 @@ export default function About() {
     Spesialisasi & Tech Stack
   </h3>
 
-  <p className="text-gray-700 leading-relaxed mb-6">
+  <p className="text-gray-400 leading-relaxed mb-8 max-w-xl">
     Sebagai <strong>Fullstack Developer</strong> dengan pengalaman di sisi 
     pengembangan dan operasional sistem, fokus utama saya adalah membangun 
-    aplikasi web yang terstruktur, scalable, serta mudah dikelola dalam 
+    aplikasi web yang terstruktur, serta mudah dikelola dalam 
     lingkungan production.
   </p>
 
@@ -112,15 +112,7 @@ export default function About() {
     {
       icon: <Instagram size={18} />,
       link: "https://instagram.com/audydaffpramn",
-    },
-    // {
-    //   icon: <Youtube size={18} />,
-    //   link: "https://youtube.com/@username",
-    // },
-    // {
-    //   icon: <Twitter size={18} />,
-    //   link: "https://twitter.com/username",
-    // },
+    }
   ].map((item, index) => (
     <a
       key={index}
