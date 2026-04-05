@@ -19,7 +19,7 @@ export default function About() {
           </p>
 
           <h2 className="text-3xl md:text-4xl font-bold mb-6 leading-snug text-black">
-            Fullstack Developer & DevOps Engineer
+            Fullstack Developer & DevOps Engineer TOTTT
           </h2>
 
 <p className="text-gray-700 leading-relaxed mb-6">
