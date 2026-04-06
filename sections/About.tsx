@@ -23,11 +23,11 @@ export default function About() {
           </h2>
 
 <p className="text-gray-700 leading-relaxed mb-6">
-  Saya adalah lulusan Teknik Informatika 
-  dengan pengalaman <strong>Fullstack Developer</strong> dan 
-  <strong> Junior DevOps Engineer</strong>. Saya terbiasa mengembangkan 
-  dan mengelola aplikasi web end-to-end, mulai dari perancangan antarmuka 
-  hingga pengelolaan sistem di sisi server.
+    Lulusan Teknik Informatika dengan pengalaman sebagai{" "}
+    <strong>Fullstack Developer</strong> dan{" "}
+    <strong>Junior DevOps Engineer</strong> — membangun aplikasi web
+    end-to-end dari antarmuka hingga pengelolaan server dalam ekosistem
+    microservices.
 </p>
 
 <p className="text-gray-700 leading-relaxed">
@@ -43,11 +43,10 @@ export default function About() {
           </h3>
 
           <p className="text-gray-700 leading-relaxed">
-            Berkontribusi dalam deployment dan maintenance aplikasi 
-            microservices di lingkungan staging & production, pengelolaan 
-            database, reverse proxy configuration (Traefik), backup & restore 
-            database, serta pengembangan sistem berbasis web seperti 
-            IQ Test, CMS, dan sistem assessment berbasis Laravel.
+              Terlibat dalam deployment & maintenance microservices, konfigurasi
+              reverse proxy (Traefik), pengelolaan database, serta pengembangan
+              sistem web berbasis Laravel seperti IQ Test, CMS, dan platform
+              assessment.
           </p>
         </div>
 
