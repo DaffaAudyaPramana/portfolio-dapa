@@ -54,37 +54,55 @@ export default function About() {
 
 {/* RIGHT SIDE */}
 <div>
-  <h3 className="text-3xl font-bold mb-6 text-black">
+  <h3 className="text-3xl font-bold mb-6 text-white">
     Spesialisasi & Tech Stack
   </h3>
 
   <p className="text-gray-400 leading-relaxed mb-8 max-w-xl">
-    Sebagai <strong>Fullstack Developer</strong> dengan pengalaman di sisi 
-    pengembangan dan operasional sistem, fokus utama saya adalah membangun 
-    aplikasi web yang terstruktur, serta mudah dikelola dalam 
-    lingkungan production.
+    Sebagai <span className="text-purple-400 font-semibold">Fullstack Developer</span>, 
+    saya membangun aplikasi yang scalable, maintainable, dan siap production 
+    dengan pendekatan modern engineering.
   </p>
 
-  <ul className="space-y-4 text-gray-700">
-    <li>
-      <strong>Frontend:</strong> HTML, CSS, JavaScript (ES6), Vue.js, Laravel
-    </li>
-    <li>
-      <strong>Backend:</strong> Golang, Laravel, RESTful API Development
-    </li>
-    <li>
-      <strong>Database:</strong> MySQL, PostgreSQL, MongoDB
-    </li>
-    <li>
-      <strong>DevOps & Cloud Deployment:</strong> Docker Compose, 
-      Reverse Proxy (Traefik), Server Troubleshooting
-    </li>
-    {/* <li>
-      <strong>Architecture & Workflow:</strong> Microservices-based systems, 
-      SDLC, Clean Code Principles
-    </li> */}
-  </ul>
+  {/* GRID */}
+  <div className="grid sm:grid-cols-2 gap-5">
 
+    {/* CARD */}
+    <div className="p-5 rounded-xl bg-white/5 backdrop-blur border border-white/10 hover:border-purple-500 transition group">
+      <h4 className="font-semibold text-white mb-2 group-hover:text-purple-400 transition">
+        Frontend
+      </h4>
+      <p className="text-sm text-gray-400">
+        HTML, CSS, JavaScript (ES6), Vue.js, Laravel
+      </p>
+    </div>
+
+    <div className="p-5 rounded-xl bg-white/5 backdrop-blur border border-white/10 hover:border-purple-500 transition group">
+      <h4 className="font-semibold text-white mb-2 group-hover:text-purple-400 transition">
+        Backend
+      </h4>
+      <p className="text-sm text-gray-400">
+        Golang, Laravel, RESTful API
+      </p>
+    </div>
+
+    <div className="p-5 rounded-xl bg-white/5 backdrop-blur border border-white/10 hover:border-purple-500 transition group">
+      <h4 className="font-semibold text-white mb-2 group-hover:text-purple-400 transition">
+        Database
+      </h4>
+      <p className="text-sm text-gray-400">
+        MySQL, PostgreSQL, MongoDB
+      </p>
+    </div>
+
+    <div className="p-5 rounded-xl bg-white/5 backdrop-blur border border-white/10 hover:border-purple-500 transition group">
+      <h4 className="font-semibold text-white mb-2 group-hover:text-purple-400 transition">
+        DevOps
+      </h4>
+      <p className="text-sm text-gray-400">
+        Docker, Traefik, Deployment, Troubleshooting
+      </p>
+    </div>
           {/* CONNECT */}
 <h3 className="text-3xl font-bold mt-12 mb-4 text-black">
   Mari Terkoneksi
@@ -129,6 +147,7 @@ export default function About() {
           </div>
         </div>
       </div>
+    </div>
     </section>
   );
 }
