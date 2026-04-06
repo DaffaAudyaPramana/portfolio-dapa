@@ -54,7 +54,7 @@ export default function About() {
 
 {/* RIGHT SIDE */}
 <div>
-  <h3 className="text-3xl font-bold mb-6 text-white">
+  <h3 className="text-3xl font-bold mb-6 text-black">
     Spesialisasi & Tech Stack
   </h3>
 
@@ -69,7 +69,7 @@ export default function About() {
 
     {/* CARD */}
     <div className="p-5 rounded-xl bg-white/5 backdrop-blur border border-white/10 hover:border-purple-500 transition group">
-      <h4 className="font-semibold text-white mb-2 group-hover:text-purple-400 transition">
+      <h4 className="font-semibold text-gray-800 mb-2 group-hover:text-purple-400 transition">
         Frontend
       </h4>
       <p className="text-sm text-gray-400">
@@ -78,7 +78,7 @@ export default function About() {
     </div>
 
     <div className="p-5 rounded-xl bg-white/5 backdrop-blur border border-white/10 hover:border-purple-500 transition group">
-      <h4 className="font-semibold text-white mb-2 group-hover:text-purple-400 transition">
+      <h4 className="font-semibold text-gray-800 mb-2 group-hover:text-purple-400 transition">
         Backend
       </h4>
       <p className="text-sm text-gray-400">
@@ -87,7 +87,7 @@ export default function About() {
     </div>
 
     <div className="p-5 rounded-xl bg-white/5 backdrop-blur border border-white/10 hover:border-purple-500 transition group">
-      <h4 className="font-semibold text-white mb-2 group-hover:text-purple-400 transition">
+      <h4 className="font-semibold text-gray-800 mb-2 group-hover:text-purple-400 transition">
         Database
       </h4>
       <p className="text-sm text-gray-400">
@@ -96,7 +96,7 @@ export default function About() {
     </div>
 
     <div className="p-5 rounded-xl bg-white/5 backdrop-blur border border-white/10 hover:border-purple-500 transition group">
-      <h4 className="font-semibold text-white mb-2 group-hover:text-purple-400 transition">
+      <h4 className="font-semibold text-gray-800 mb-2 group-hover:text-purple-400 transition">
         DevOps
       </h4>
       <p className="text-sm text-gray-400">
