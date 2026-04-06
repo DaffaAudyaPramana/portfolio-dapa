@@ -25,8 +25,8 @@ export default function About() {
 <p className="text-gray-700 leading-relaxed mb-6">
     Lulusan Teknik Informatika dengan pengalaman sebagai{" "}
     <strong>Fullstack Developer</strong> dan{" "}
-    <strong>Junior DevOps Engineer</strong> — membangun aplikasi web
-    end-to-end dari antarmuka hingga pengelolaan server dalam ekosistem
+    <strong>Junior DevOps Engineer</strong> membangun aplikasi web
+    antarmuka hingga pengelolaan server dalam ekosistem
     microservices.
 </p>
 
@@ -56,12 +56,6 @@ export default function About() {
   <h3 className="text-3xl font-bold mb-6 text-black">
     Spesialisasi & Tech Stack
   </h3>
-
-  <p className="text-gray-400 leading-relaxed mb-8 max-w-xl">
-    Sebagai <span className="text-purple-400 font-semibold">Fullstack Developer</span>, 
-    saya membangun aplikasi yang scalable, maintainable, dan siap production 
-    dengan pendekatan modern engineering.
-  </p>
 
   {/* GRID */}
   <div className="grid sm:grid-cols-2 gap-5">
