@@ -4,6 +4,11 @@ export const experiences = [
     logo: "/experience/hexagon.png",
     link: "https://www.hexagon.co.id/"
   },
+    {
+    company: "Berkemah",
+    logo: "/experience/berkemah_logo.jpg",
+    link: "https://www.berkemah.com/"
+  },
   {
     company: "PT Penerbit Buku Pedia",
     logo: "/experience/bukupedia.png",
