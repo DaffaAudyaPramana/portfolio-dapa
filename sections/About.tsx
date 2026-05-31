@@ -25,16 +25,17 @@ export default function About() {
 <p className="text-gray-700 leading-relaxed mb-6">
     Lulusan Teknik Informatika dengan pengalaman sebagai{" "}
     <strong>Fullstack Developer</strong> dan{" "}
-    <strong>Junior DevOps Engineer</strong> membangun aplikasi web
-    antarmuka hingga pengelolaan server dalam ekosistem
-    microservices.
+    <strong>Junior DevOps Engineer</strong>. Memiliki pengalaman dalam merancang,
+    membangun, dan mengelola aplikasi web mulai dari antarmuka,
+    backend, hingga deployment dan pengelolaan server dalam lingkungan berbasis
+    arsitektur microservices.
 </p>
 
 <p className="text-gray-700 leading-relaxed">
-  Berpengalaman bekerja dalam lingkungan pengembangan berbasis microservices, 
-  saya fokus pada membangun solusi yang stabil, efisien, dan mudah dikembangkan. 
-  Saya juga memiliki pemahaman dalam deployment aplikasi serta memastikan 
-  performa sistem tetap optimal melalui monitoring dan troubleshooting yang terstruktur.
+  Berpengalaman dalam pengembangan aplikasi berbasis arsitektur microservices, 
+  deployment aplikasi, serta pengelolaan performa sistem melalui monitoring dan troubleshooting yang terstruktur. 
+  Terbiasa membuat solusi yang stabil, efisien, dan 
+  siap digunakan di lingkungan production.
 </p>
 
           {/* KONTRIBUSI */}
@@ -43,10 +44,10 @@ export default function About() {
           </h3>
 
           <p className="text-gray-700 leading-relaxed">
-              Terlibat dalam deployment & maintenance microservices, konfigurasi
-              reverse proxy (Traefik), pengelolaan database, serta pengembangan
-              sistem web berbasis Laravel seperti IQ Test, CMS, dan platform
-              assessment.
+              Berpengalaman dalam deployment, maintenance, dan pengelolaan aplikasi
+              berbasis microservices pada VPS, termasuk konfigurasi Traefik dan manajemen
+              database. Merancang dan mengembangkan sistem web 
+              menggunakan Laravel, HTML, JavaScript, Vue.js, dan Next.js.
           </p>
         </div>
 
@@ -66,7 +67,7 @@ export default function About() {
         Frontend
       </h4>
       <p className="text-sm text-gray-400">
-        HTML, CSS, JavaScript (ES6), Vue.js, Laravel
+        Laravel, JavaScript, Vue.js, Next.Js
       </p>
     </div>
 
@@ -75,7 +76,7 @@ export default function About() {
         Backend
       </h4>
       <p className="text-sm text-gray-400">
-        Golang, Laravel, RESTful API
+        Golang, PHP, Express.js, Node.js
       </p>
     </div>
 
@@ -93,7 +94,8 @@ export default function About() {
         DevOps
       </h4>
       <p className="text-sm text-gray-400">
-        Docker, Traefik, Deployment, Troubleshooting
+        Docker, Docker Compose, Traefik, Nginx, Linux VPS, Deployment, 
+        Maintenance, Monitoring, dan Troubleshooting
       </p>
     </div>
           {/* CONNECT */}
@@ -116,10 +118,10 @@ export default function About() {
       icon: <Linkedin size={18} />,
       link: "https://linkedin.com/in/daffaaudyapramana",
     },
-    {
-      icon: <Github size={18} />,
-      link: "https://github.com/DaffaAudyaPramana",
-    },
+    // {
+    //   icon: <Github size={18} />,
+    //   link: "https://github.com/DaffaAudyaPramana",
+    // },
     {
       icon: <Instagram size={18} />,
       link: "https://instagram.com/audydaffpramn",
