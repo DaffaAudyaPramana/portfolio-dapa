@@ -1,10 +1,15 @@
 export const experiences = [
   {
+    company: "HyperIndoStore",
+    logo: "/experience/logohyperindostore.png",
+    link: "https://www.hypeid.store/"
+  },
+  {
     company: "PT Hexagon Karyatama Indonesia",
     logo: "/experience/hexagon.png",
     link: "https://www.hexagon.co.id/"
   },
-    {
+  {
     company: "Berkemah",
     logo: "/experience/berkemah_logo.jpg",
     link: "https://www.berkemah.com/"
