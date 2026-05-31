@@ -27,8 +27,8 @@ export default function Hero() {
             </h1>
 
             <p className="text-gray-400 max-w-md leading-relaxed">
-              Fullstack Developer dengan fokus pada pengembangan web scalable 
-              dan saat ini memperdalam DevOps untuk memahami deployment end-to-end.
+              Fullstack Developer dengan fokus pada pengembangan web yang stabil, 
+              efisien, dan mudah dikembangkan. Saat ini saya tertarik untuk pada bidang DevOps.
             </p>
 
             <div className="flex gap-4">
