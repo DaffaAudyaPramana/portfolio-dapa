@@ -28,7 +28,7 @@ export default function Hero() {
 
             <p className="text-gray-400 max-w-md leading-relaxed">
               Fullstack Developer dengan fokus pada pengembangan web yang stabil, 
-              efisien, dan mudah dikembangkan. Saat ini saya tertarik untuk pada bidang DevOps.
+              efisien, dan mudah dikembangkan. Saat ini saya tertarik pada bidang DevOps.
             </p>
 
             <div className="flex gap-4">
