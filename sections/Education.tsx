@@ -14,7 +14,7 @@ export default function Education() {
         </h2>
 
         <p className="text-gray-300 mb-16">
-          Pernah belajar pada program dan universitas berikut
+          Pernah belajar/mengikuti program dan universitas berikut:
         </p>
 
         <div className="flex justify-center gap-14 flex-wrap">
