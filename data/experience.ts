@@ -1,8 +1,8 @@
 export const experiences = [
   {
     company: "HyperIndoStore",
-    logo: "/experience/logohyperindostore.png",
-    link: "https://www.hypeid.store/"
+    logo: "/experience/logohyperindostore.PNG",
+    link: "/"
   },
   {
     company: "PT Hexagon Karyatama Indonesia",
