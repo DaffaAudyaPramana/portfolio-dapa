@@ -1,4 +1,11 @@
 export const projects = [
+    {
+    title: "PPDB Online System",
+    company: "Nakala Digital",
+    image: "/projects/PPDB Online.png",
+    description:
+      "Mengembangkan platform penerimaan digital dengan skalabilitas tinggi yang dirancang khusus untuk memproses pendaftaran bervolume besar, dilengkapi verifikasi dokumen yang aman dan transparansi real-time.",
+  },
   {
     title: "HyperIndoStore",
     company: "HyperIndoStore",
