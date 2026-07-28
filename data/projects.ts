@@ -18,7 +18,7 @@ export const projects = [
     company: "ULBI",
     image: "/projects/do.my.id.png",
     description:
-      "Selama bekerja di PT. Penerbit Buku Pedia, Bandung sebagai Fullstack Developer, saya mengembangkan platform tes IQ berbasis web yang dirancang untuk mendukung proses assessment secara digital bagi para mahasiswa. UI menggunakan HTML5 dan JavaScript (ES6), juga membangun layanan backend menggunakan Golang yang terintegrasi dengan MongoDB. Saya mengintegrasikan Golang dengan Google Cloud Function untuk membangun Event-Driven API untuk proses data secara otomatis, terstruktru dan berdasarkan trigger/event tertentu. Mengimplementasikan microservice Golang yang terhubung dengan WhatsApp API, sehingga sistem dapat secara otomatis mengirimkan informasi serta hasil tes IQ kepada pengguna.",
+      "Selama bekerja di PT. Informatika Digital Bisnis, Bandung sebagai Fullstack Developer, saya mengembangkan platform tes IQ berbasis web yang dirancang untuk mendukung proses assessment secara digital bagi para mahasiswa. UI menggunakan HTML5 dan JavaScript (ES6), juga membangun layanan backend menggunakan Golang yang terintegrasi dengan MongoDB. Saya mengintegrasikan Golang dengan Google Cloud Function untuk membangun Event-Driven API untuk proses data secara otomatis, terstruktru dan berdasarkan trigger/event tertentu. Mengimplementasikan microservice Golang yang terhubung dengan WhatsApp API, sehingga sistem dapat secara otomatis mengirimkan informasi serta hasil tes IQ kepada pengguna.",
   },
   {
     title: "Jatidiri App",

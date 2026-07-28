@@ -67,7 +67,7 @@ export default function About() {
         Frontend
       </h4>
       <p className="text-sm text-gray-400">
-        Laravel, JavaScript, Vue.js, Next.Js
+        Laravel, JavaScript, Vue.js, Next.Js, React.Js
       </p>
     </div>
 
@@ -85,7 +85,7 @@ export default function About() {
         Database
       </h4>
       <p className="text-sm text-gray-400">
-        MySQL, PostgreSQL, MongoDB
+        MySQL, PostgreSQL, MongoDB, Prisma
       </p>
     </div>
 
@@ -94,7 +94,7 @@ export default function About() {
         DevOps
       </h4>
       <p className="text-sm text-gray-400">
-        Docker, Docker Compose, Traefik, Nginx, Linux VPS, Deployment, 
+        Docker, Docker Compose, Traefik, Nginx, Linux VPS, Deployment, CI/CD,
         Maintenance, Monitoring, dan Troubleshooting
       </p>
     </div>
