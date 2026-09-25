@@ -4,19 +4,19 @@ import Reveal from "@/components/Reveal";
 
 export default function Hero() {
   return (
-    <section 
-    id="home"
-    className="min-h-screen flex items-center pt-32 relative overflow-hidden">
-      
+    <section
+      id="home"
+      className="min-h-screen flex items-center pt-32 relative overflow-hidden">
+
       {/* subtle background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-black to-black" />
 
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center relative z-10">
-        
+
         {/* LEFT */}
         <Reveal>
           <div className="space-y-6">
-            
+
             <p className="text-sm text-gray-400 tracking-wide">
               Halo, nama saya
             </p>
@@ -27,8 +27,8 @@ export default function Hero() {
             </h1>
 
             <p className="text-gray-400 max-w-md leading-relaxed">
-              Fullstack Developer dengan fokus pada pengembangan web yang stabil, 
-              efisien, dan mudah dikembangkan. Juga, saat ini saya sedang tertarik pada bidang DevOps.
+              Fullstack Developer dengan fokus pada pengembangan web yang stabil,
+              efisien, dan mudah dikembangkan.
             </p>
 
             <div className="flex gap-4">
@@ -46,7 +46,7 @@ export default function Hero() {
         <Reveal>
           <div className="flex justify-center">
             <div className="relative group">
-              
+
               {/* glow effect */}
               <div className="absolute inset-0 rounded-full bg-purple-600 blur-3xl opacity-20 group-hover:opacity-40 transition duration-500" />
 
