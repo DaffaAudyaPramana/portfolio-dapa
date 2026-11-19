@@ -7,7 +7,7 @@ export const education = [
     logo: "/education/golang-luster.png",
     link: "https://www.mindluster.com/student/certificate/1363332232"
   },
-      {
+  {
     logo: "/education/codeacademygo.png",
     link: "https://www.linkedin.com/in/daffaaudyapramana/details/certifications/1723474426826/single-media-viewer/?profileId=ACoAADhcYOYBjOaEjN9UaomO6crwvHw544WMzYc"
   },
@@ -31,4 +31,8 @@ export const education = [
     logo: "/education/masteringazuredevops.jpg",
     link: "https://www.linkedin.com/in/daffaaudyapramana/overlay/Certifications/2004254292/treasury/?profileId=ACoAADhcYOYBjOaEjN9UaomO6crwvHw544WMzYc"
   },
-]
+  {
+    logo: "/education/Certificate LIA for business Pre-Intermediate Level English.jpg",
+    link: "https://www.linkedin.com/in/daffaaudyapramana/details/certifications/edit/forms/1914558097/"
+  }
+];
